@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TempElementsPO2", "TempElementsPO2\TempElementsPO2.csproj", "{2DA90876-2613-476A-9F89-ED31598241D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TempElements", "TempElementsPO2\TempElements.csproj", "{2DA90876-2613-476A-9F89-ED31598241D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{6EB29AF9-CB4E-48D0-99EC-3A59680A4C6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{6EB29AF9-CB4E-48D0-99EC-3A59680A4C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{12BBD8F7-112A-4780-A842-1D0922551B11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6EB29AF9-CB4E-48D0-99EC-3A59680A4C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EB29AF9-CB4E-48D0-99EC-3A59680A4C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EB29AF9-CB4E-48D0-99EC-3A59680A4C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12BBD8F7-112A-4780-A842-1D0922551B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12BBD8F7-112A-4780-A842-1D0922551B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12BBD8F7-112A-4780-A842-1D0922551B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12BBD8F7-112A-4780-A842-1D0922551B11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

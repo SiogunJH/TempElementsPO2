@@ -11,7 +11,7 @@ namespace TempElementsLib.Interfaces
     ///                                      Path.GetTempPath
     /// konstruktor z argumentem `string` -> tworzenie katalogu we wskazanym miejscu
     /// </remarks>
-    interface ITempDir : ITempElement
+    public interface ITempDir : ITempElement
     {
         // property zwracające pełną ścieżkę dostępu do katalogu
         string DirPath { get; }
